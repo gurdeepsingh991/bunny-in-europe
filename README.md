@@ -24,4 +24,13 @@
 5. Apply migrations
     python manage.py migrate
 6. Run Backend Server
-    python manage.py runserver
+    python manage.py runserver 
+    -> should run at http://127.0.0.1:8000/
+7. Navigate to frontend folder 
+    cd "React Project"
+8. Install Dependancies
+    npm install
+9. start dev server 
+    npm run dev
+10. Access Frontend
+    go to -> http://localhost:5173/
