@@ -12,25 +12,25 @@
 ### Steps to Run the solution (IN PROGRESS): 
 
 1. Clone the Repo: 
-    git clone https://github.com/gurdeepsingh991/bunny-in-europe.git
-    cd bunny-in-europe
+   -  git clone https://github.com/gurdeepsingh991/bunny-in-europe.git
+   -  cd bunny-in-europe
 2. Go to DjangoFolder
-    cd Django
+   - cd Django
 3. Create virtual environment (MAC): 
-    python -m venv .venv
-    source .venv/bin/activate
+   -  python -m venv .venv
+   -   source .venv/bin/activate
 4. Install dependencies:
-    pip install django djangorestframework django-cors-headers
+   -  pip install django djangorestframework django-cors-headers
 5. Apply migrations
-    python manage.py migrate
+   -  python manage.py migrate
 6. Run Backend Server
-    python manage.py runserver 
-    -> should run at http://127.0.0.1:8000/
+   -  python manage.py runserver 
+   - -> should run at http://127.0.0.1:8000/
 7. Navigate to frontend folder 
-    cd "React Project"
+   - cd "React Project"
 8. Install Dependancies
-    npm install
+   - npm install
 9. start dev server 
-    npm run dev
+   - npm run dev
 10. Access Frontend
-    go to -> http://localhost:5173/
+   - go to -> http://localhost:5173/
