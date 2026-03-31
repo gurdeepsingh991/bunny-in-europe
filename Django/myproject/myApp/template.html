@@ -1,0 +1,3109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Works Order Part 1 - </title>
+
+
+
+    <style>
+        .sanitize * {
+
+            background: transparent !important;
+
+            background-color: transparent !important;
+
+            color: black !important;
+
+            border-color: black !important;
+
+        }
+
+
+
+        .sanitize [style*="color"] {
+
+            color: black !important;
+
+        }
+
+
+
+        .sanitize [style*="background"] {
+
+            background: transparent !important;
+
+            background-color: transparent !important;
+
+        }
+
+
+
+        .sanitize span[style] {
+
+            background: transparent !important;
+
+            background-color: transparent !important;
+
+            color: black !important;
+
+        }
+
+
+
+        .sanitize font {
+
+            color: black !important;
+
+            background: transparent !important;
+
+        }
+
+
+
+        .sanitize .doc-change-ins,
+
+        .sanitize .doc-change-ins * {
+
+            background: #d4edda !important;
+
+            color: #155724 !important;
+
+        }
+
+
+
+        .sanitize .doc-change-del,
+
+        .sanitize .doc-change-del * {
+
+            background: #f8d7da !important;
+
+            color: #721c24 !important;
+
+            text-decoration: line-through !important;
+
+        }
+
+
+
+        html,
+
+        body {
+
+            margin: 0;
+
+            padding: 0;
+
+            font-family: Arial, Helvetica, sans-serif;
+
+            -webkit-print-color-adjust: exact !important;
+
+            print-color-adjust: exact !important;
+
+            background: #ffffff !important;
+
+        }
+
+
+
+        body {
+
+            color: #1f2937;
+
+            line-height: 1.6;
+
+            padding: 20px;
+
+            font-size: 12px;
+
+        }
+
+
+
+        .document-container {
+
+            max-width: 1000px;
+
+            margin: 0 auto;
+
+            background: #ffffff;
+
+            padding: 0 35px 25px;
+
+        }
+
+
+
+        .document-container col,
+
+        .document-container colgroup col {
+
+            width: auto !important;
+
+            max-width: none !important;
+
+        }
+
+
+
+        .document-container table,
+
+        table {
+
+            width: 100% !important;
+
+            max-width: 100% !important;
+
+            table-layout: fixed !important;
+
+            border-collapse: collapse;
+
+            overflow-wrap: break-word !important;
+
+            word-wrap: break-word !important;
+
+            white-space: normal !important;
+
+        }
+
+
+
+        th,
+
+        td {
+
+            border: 1px solid #999;
+
+            padding: 8px 10px;
+
+            vertical-align: top;
+
+            text-align: left;
+
+        }
+
+
+
+        th {
+
+            background: #f8fafc !important;
+
+            font-weight: bold;
+
+            text-align: center;
+
+        }
+
+
+
+        tr {
+
+            page-break-inside: avoid !important;
+
+        }
+
+
+
+        .document-title {
+
+            font-size: 20px;
+
+            font-weight: bold;
+
+            margin: 0 0 6px;
+
+            color: #0d1831;
+
+            text-align: center;
+
+        }
+
+
+
+        .document-subtitle {
+
+            text-align: center;
+
+            color: #6b7280;
+
+            margin-bottom: 16px;
+
+        }
+
+
+
+        h3.section-title {
+
+            font-size: 16px;
+
+            font-weight: bold;
+
+            color: #0d1831;
+
+            margin: 22px 0 8px;
+
+            border-bottom: 1px solid #e5e7eb;
+
+            padding-bottom: 6px;
+
+        }
+
+
+
+        .note {
+
+            color: #6b7280;
+
+            font-style: italic;
+
+        }
+
+
+
+        .info-row {
+
+            width: 100%;
+
+            margin-bottom: 6px;
+
+        }
+
+
+
+        .info-row td {
+
+            padding: 2px 4px;
+
+        }
+
+
+
+        .info-label {
+
+            width: 180px;
+
+            font-weight: bold;
+
+            white-space: nowrap;
+
+        }
+
+
+
+        .info-value {
+
+            color: #111827;
+
+        }
+
+
+
+        @media print {
+
+            @page {
+
+                size: A4;
+
+                margin: 12mm;
+
+            }
+
+
+
+            table,
+
+            th,
+
+            td {
+
+                border: 1px solid #000 !important;
+
+            }
+
+        }
+    </style>
+
+
+
+</head>
+
+
+
+<body>
+
+    <div class="document-container">
+
+
+
+        <div class="document-title">WORKS ORDER AGREEMENT</div>
+
+        <div class="document-subtitle">A70/1234</div>
+
+
+
+        <table class="info-row">
+
+            <tr>
+
+                <td class="info-label">Date:</td>
+
+                <td class="info-value">
+
+                    —
+
+                </td>
+
+            </tr>
+
+        </table>
+
+
+
+        <table class="info-row">
+
+            <tr>
+
+                <td class="info-label">Reference:</td>
+
+                <td class="info-value">A70/1234</td>
+
+            </tr>
+
+        </table>
+
+
+
+        <table class="info-row">
+
+            <tr>
+
+                <td class="info-label">Client:</td>
+
+                <td class="info-value">SEVERN TRENT WATER LIMITED</td>
+
+            </tr>
+
+        </table>
+
+
+
+        <table class="info-row">
+
+            <tr>
+
+                <td class="info-label">Contractor:</td>
+
+                <td class="info-value">
+
+                    JMS
+
+                </td>
+
+            </tr>
+
+        </table>
+
+        <div>This Works Order is governed by and issued under the terms and conditions of the LOT 1 Framework Agreement
+            dated 7th May 2019 between the Client and the Contractor ("the Framework Agreement") and incorporates the
+            terms and conditions (and the contract documents incorporated by reference by those terms and conditions)
+            set out in Schedule 3 of the Framework Agreement [as varied by the Deed of Variation dated [TBC]].</div>
+
+
+
+        <div id="field-clauses_text1">
+            <p>The following clauses are to be used where Works Orders have been entered into in relation to the same
+                subject matter and there is agreement to them being subsumed into and superseded by this Works Order</p>
+            <p>The <em>Client</em> and the <em>Contractor</em> have previously entered into the Works Orders
+                (<strong>"Early Works Orders"</strong>) described below in connection with the works:</p>
+        </div>
+
+
+
+        <h3 class="section-title" id="">Early Works</h3>
+
+        <table id="section-early-works">
+
+            <thead>
+
+                <tr>
+
+                    <th>Reference</th>
+
+                    <th>Date</th>
+
+                    <th>Summary</th>
+
+                    <th>Amount Paid</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+
+
+
+
+                <tr>
+
+                    <td colspan="4" class="note">No early works recorded.</td>
+
+                </tr>
+
+
+
+
+
+            </tbody>
+
+        </table>
+
+
+
+        <div id="field-clauses_text2">
+
+            <p>As at the Contract Date, the Early Works Orders shall terminate and the Parties shall have no claims
+                against each other or liability to each other pursuant to the Early Works Orders.</p>
+            <p>This Works Order shall apply retrospectively so that the performance of all obligations, <em>works</em>
+                and/or services under the Early Works Order shall be deemed to have been performed and carried out under
+                this Works Order and to have been governed from the outset by this Works Order, and, for the avoidance
+                of doubt, only the requirements of this Works Order shall apply to such obligations, <em>works</em>
+                and/or services. The Contractor hereby warrants that all obligations, <em>works</em> and/or services
+                performed under the Early Works Order have been performed and carried out in accordance with the
+                requirements of this Works Order.</p>
+            <p>All obligations, <em>works</em> and/or services under the Early Works Order shall form an integral part
+                of the obligations, works and/or services in this Works Order, such that any obligations, <em>works</em>
+                and/or services delivered, whether as part of the Early Works Order or otherwise, before this Works
+                Order came into effect, and the obligations, <em>works </em>and/or services (if any) that are still to
+                be carried out by the Contractor under the Early Works Orders at the time the Early Works Orders are
+                terminated, shall be subject to the provisions of this Works Order.</p>
+            <p>The <em>Contractor</em> acknowledges and agrees that the amounts set out above have been paid by the
+                Client to the Contractor in respect of the obligations, <em>works</em> and/or services performed by the
+                Contractor under the Early Works Orders, and that such amounts constitute all amounts due to the
+                Contractor in respect of the obligations, <em>works</em> and/or services performed under the relevant
+                Early Works Orders. Without prejudice to the foregoing, the Contractor further acknowledges and agrees
+                that the amounts set out above constitute payment towards the Price for Work Done to Date under the
+                Works Order."</p>
+
+        </div>
+
+
+
+        <h3 class="section-title">PART ONE – DATA PROVIDED BY THE <em>CLIENT</em></h3>
+
+
+
+
+
+        <table>
+
+            <colgroup>
+
+                <col style="width: 32%" />
+
+                <col style="width: 22%" />
+
+                <col style="width: 23%" />
+
+                <col style="width: 23%" />
+
+            </colgroup>
+
+
+
+            <tr>
+
+                <td colspan="4"><strong>Statement applicable to all Work Orders</strong></td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The main Option is:</td>
+
+                <td colspan="3"></td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The secondary Options are:</td>
+
+                <td colspan="3">X2, X7, X11, X15, X18, X19A, X19B, X23, X24, Y(UK)2 and Y(UK)3</td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The additional secondary Options (if any) are:</td>
+
+                <td colspan="3">
+
+
+
+                    x3,
+
+
+
+                    x5,
+
+
+
+                    x6,
+
+
+
+                    x10,
+
+
+
+                    x12,
+
+
+
+                    x13,
+
+
+
+                    x14,
+
+
+
+                    x16,
+
+
+
+                    x17,
+
+
+
+                    x21,
+
+
+
+                    x22,
+
+
+
+                    x22a,
+
+
+
+                    yuk1
+
+
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The <em>Works</em> are:</td>
+
+                <td colspan="3">
+
+                    <div class="sanitize">
+
+                        <p><br></p>
+
+                    </div>
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The Project Manager is:</td>
+
+                <td colspan="3">
+
+
+
+                    <div class="sanitize">
+
+                        <p><br></p>
+
+                    </div>
+
+
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>Name of delegate and details of actions delegated:</td>
+
+                <td colspan="3">
+
+
+
+                    <div class="sanitize">
+
+
+
+                        <p><br></p>
+
+
+
+
+
+                    </div>
+
+
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The <em>Supervisor</em> is:</td>
+
+                <td colspan="3">
+
+                    The Project Manager
+
+
+
+                    <br />
+                    <p><br></p>
+
+
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The communication system is:</td>
+
+                <td colspan="3">
+                    <div id="communicationSystem">Asite Common Data Environment &amp;amp; Contract Event Management
+                        systems</div>
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The Scope is:</td>
+
+                <td colspan="3">Located and described in Annex 1</td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The Site Information is:</td>
+
+                <td colspan="3">Located and described in Annex 2</td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The boundaries of the site are:</td>
+
+                <td colspan="3">Located within the Site Information in Annex 2</td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The Period for reply:</td>
+
+                <td colspan="3">
+
+                    The period for reply is two weeks except thatThe period of reply for the Project Manager to respond
+                    to Contractor technical queries is [INSERT] weeksThe period of reply for [INSERT] is [INSERT]
+                    weeksOR DELETE
+
+
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The following matters will be included in the Early Warning Register:</td>
+
+                <td colspan="3">No</td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>Early Warning Meetings:</td>
+
+                <td colspan="3">—</td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td rowspan="2">The key dates and conditions to be met are:</td>
+
+                <td colspan="2"><strong>Condition to be met</strong></td>
+
+                <td colspan="1"><strong>Key date</strong></td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td colspan="3" class="note">No key dates recorded.</td>
+
+            </tr>
+
+
+
+
+
+            <tr>
+
+                <td>The <em>starting date</em> is:</td>
+
+                <td colspan="3">—</td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The <em>access dates</em> are:</td>
+
+                <td colspan="3">—</td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The completion date for the whole of the works is:</td>
+
+                <td colspan="3">—</td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>Taking over the works before Completion:</td>
+
+                <td colspan="3">Yes</td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The Contractor submits revised programmes at intervals no longer than:</td>
+
+                <td colspan="3">Revised programmes shall be submitted on the 20th calendar day of every month (or if it
+                    falls on a weekend, the subsequent working day).</td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The period after the Contract Date within which the Contractor is to submit a quality policy
+                    statement is:
+
+                </td>
+
+                <td colspan="3">
+                    <p><br></p>
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The key output(s) are:</td>
+
+                <td colspan="3">
+
+                    <div class="sanitize">
+
+                        <p><br></p>
+
+                    </div>
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The Defects Commencement trigger date is:</td>
+
+                <td colspan="3"></td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The period between the Defects Commencement Trigger Date and the defects date:</td>
+
+                <td colspan="3">
+                    <ul>
+                        <li>The period between the Defects Commencement Trigger Date and the defects date is:</li>
+                        <li>In respect of any works which are subject to the requirements of NRSWA and associated
+                            reinstatement guarantee periods in accordance with the Specification for the Reinstatement
+                            of Opening in Highways (issued by the Highways Authorities and Utilities Committee):</li>
+                        <li class="ql-indent-2">104 weeks where the depth of cover of pipe or other equipment is less
+                            than 1.5m</li>
+                        <li class="ql-indent-1">156 weeks where the depth of cover of pipe or other equipment is greater
+                            than 1.5m</li>
+                        <li>In respect of all other works: 52 weeks</li>
+                    </ul>
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The defect correction period:</td>
+
+                <td colspan="3">
+
+                    <div id="defectCorrectionPeriod">
+                        <p>The defect correction period is two weeks except that</p>
+                        <p>The defect correction period for [INSERT] is [INSERT] days / hours</p>
+                        <p>The defect correction period for [INSERT] is [INSERT] days / hours</p>
+                        <p>The defect correction period for [INSERT] is [INSERT] days / hours</p>
+                    </div>
+
+                    <div id="defectCorrectionPeriod2">
+                        <p>The defect correction period is two weeks except that:</p>
+                        <p>for urgent defects, rectification is to commence within 24 hours of a notification and to be
+                            completed within two weeks</p>
+                        <p>An urgent Defect is defined as a Defect causing a process, supply interruption or potential
+                            pollution risk.</p>
+                    </div>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td colspan="4">Optional Statements</td>
+
+            </tr>
+
+            <tr>
+
+                <td>If there are additional compensation events, these are:</td>
+
+                <td colspan="3">
+
+                    <div id="additionalCompensationEvents">
+
+                        Not used
+
+                    </div>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>The <em>client consents</em> are:</td>
+
+                <td colspan="3">
+
+                    Not Used
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>The Free Issues items are:</td>
+
+                <td colspan="3">
+
+
+
+                    <span class="note">Not Used</span>
+
+
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The Novated Suppliers are:</td>
+
+                <td colspan="3">
+
+
+
+                    <span class="note">Not Used</span>
+
+
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>If additional compensation events are identified above, the following may entitle the Contractor to
+                    a change
+
+                    to the Prices:</td>
+
+                <td colspan="3">
+
+                    Not used
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>If there are additional <em>Client's</em> liabilities, these are:</td>
+
+                <td colspan="3">
+
+                    Not used
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>If additional Client's liabilities are identified above, the following may entitle the Contractor to
+                    a
+
+                    change to the Prices:</td>
+
+                <td colspan="3">
+
+                    Not used
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td rowspan="2">If the <em>Client</em> is to provide additional insurances:</td>
+
+                <td><strong>Insurance against</strong></td>
+
+                <td><strong>Minimum amount of cover</strong></td>
+
+                <td><strong>Deductibles</strong></td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td colspan="3">Not used</td>
+
+            </tr>
+
+
+
+
+
+            <tr>
+
+                <td rowspan="2">If the <em>Contractor</em> is to provide additional insurances:</td>
+
+                <td><strong>Insurance against</strong></td>
+
+                <td><strong>Minimum amount of cover</strong></td>
+
+                <td><strong>Deductibles</strong></td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td colspan="3">Not used</td>
+
+            </tr>
+
+
+
+
+
+            <tr>
+
+                <td rowspan="2"><strong>If Option X3 is used</strong> (used only with Option A)</td>
+
+                <td><strong>Items and activities</strong></td>
+
+                <td><strong>Other currency</strong></td>
+
+                <td><strong>Total maximum payment</strong></td>
+
+            </tr>
+
+
+
+
+
+            <tr>
+
+                <td></td>
+
+                <td>test</td>
+
+                <td>2000</td>
+
+            </tr>
+
+
+
+
+
+
+
+            <tr>
+
+                <td rowspan="2"><strong>If Option X5 is used</strong></td>
+
+                <td><strong>Section</strong></td>
+
+                <td><strong>Description</strong></td>
+
+                <td><strong>Completion date</strong></td>
+
+            </tr>
+
+
+
+
+
+            <tr>
+
+                <td>section 1</td>
+
+                <td>descriptio test</td>
+
+                <td>12-03-2027</td>
+
+            </tr>
+
+
+
+
+
+
+
+            <tr>
+
+                <td>If <strong>Option X6 is used without Option X5</strong></td>
+
+                <td colspan="3">
+
+                    Not used
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td rowspan="2">If <strong>Option X6 is used with Option X5</strong></td>
+
+                <td><strong>Section</strong></td>
+
+                <td><strong>Description</strong></td>
+
+                <td><strong>Amount per day</strong></td>
+
+            </tr>
+
+
+
+
+
+            <tr>
+
+                <td colspan="3">Not used</td>
+
+            </tr>
+
+
+
+
+
+
+
+            <tr>
+
+                <td>If <strong>Option X7 is used without Option X5</strong></td>
+
+                <td colspan="3">
+
+                    Not used
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td rowspan="2">If <strong>Option X7 is used with Option X5</strong></td>
+
+                <td><strong>Section</strong></td>
+
+                <td><strong>Description</strong></td>
+
+                <td><strong>Amount per day</strong></td>
+
+            </tr>
+
+
+
+
+
+            <tr>
+
+                <td colspan="3">Not used</td>
+
+            </tr>
+
+
+
+
+
+
+
+            <tr>
+
+                <td>If <strong>Option X10 is used</strong>, If no information execution plan is identified in part two
+                    of the Contract Data:</td>
+
+                <td colspan="3">
+
+
+
+                    two
+
+
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td><strong>If Option X12 is used:</strong></td>
+
+                <td colspan="3"></td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>Promoter is:</td>
+
+                <td colspan="3">
+
+                    Not Used
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>Schedule of the partner is:</td>
+
+                <td colspan="3">
+
+                    Not Used
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The Promoter's objective is:</td>
+
+                <td colspan="3">
+
+                    Not Used
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The Partnering Information is:</td>
+
+                <td colspan="3">
+
+                    Not Used
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>If <strong>Option X13 is used</strong> The amount of the performance bond is:</td>
+
+                <td colspan="3">
+
+
+
+                    —
+
+
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td colspan="4"><strong>If Option X14 is used</strong></td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The amount of the advanced payment is:</td>
+
+                <td colspan="3">
+
+                    Not Used
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The period after the Contract Date from which the <em>Contractor</em> repays the instalments in
+                    assessments is:</td>
+
+                <td colspan="3">
+
+                    Not Used
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The instalments are:</td>
+
+                <td colspan="3">
+
+
+
+                    —
+
+
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>An advanced payment bond:</td>
+
+                <td colspan="3">
+
+                    Not Used
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td colspan="4"><strong>If Option X16 is used</strong></td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The retention free amount is:</td>
+
+                <td colspan="3">
+
+
+
+                    —
+
+
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The retention percentage is:</td>
+
+                <td colspan="3">
+
+
+
+                    Not Used
+
+
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>A retention bond:</td>
+
+                <td colspan="3">
+
+
+
+                    Not Used
+
+
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td rowspan="2"><strong>If Option X17 is used</strong> The amounts for low performance damages are:</td>
+
+                <td colspan="1"><strong>Amount</strong></td>
+
+                <td colspan="2"><strong>Performance level</strong></td>
+
+            </tr>
+
+
+
+
+
+            <tr>
+
+                <td colspan="3">Not used</td>
+
+            </tr>
+
+
+
+
+
+
+
+            <tr>
+
+                <td><strong>If Option X18 is used</strong></td>
+
+                <td colspan="3">
+
+                    Not used
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The delay damages for the remainder of the works are:</td>
+
+                <td colspan="3">&lt;p&gt;Insert amount per day&lt;/p&gt;</td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td rowspan="2"><strong>If Option X22 is used</strong></td>
+
+            </tr>
+
+
+
+
+
+
+
+            <tr>
+
+                <td colspan="3">Not used</td>
+
+            </tr>
+
+
+
+
+
+
+
+            <tr>
+
+                <td><strong>If Option X22a is used</strong></td>
+
+                <td colspan="3">
+
+
+
+                    Used — Prices for Stage One: [Lump sum]/[Not lump sum]; Total Defined Cost (Stage One): [INSERT]
+
+
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>If <strong>Option Y(UK)1</strong> is used (Project Bank Account) – charges/interest:</td>
+
+                <td colspan="3">
+
+                    Not used
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td rowspan="2"><strong>If Option Y(UK)3 is used</strong></td>
+
+                <td colspan="1"><strong>Term</strong></td>
+
+                <td colspan="2"><strong>Beneficiary</strong></td>
+
+            </tr>
+
+
+
+            <tr>
+                <td colspan="3">Not used</td>
+            </tr>
+
+
+
+
+
+            <tr>
+
+                <td rowspan="2"><strong>If Option Y(UK)3 is used with Y(UK)1</strong> — additional entry:</td>
+
+                <td colspan="1"><strong>Term</strong></td>
+
+                <td colspan="2"><strong>Beneficiary</strong></td>
+
+            </tr>
+
+
+
+
+
+            <tr>
+                <td colspan="3">Not used</td>
+            </tr>
+
+
+
+
+
+
+
+            <tr>
+
+                <td><strong>Where the Contractor is to Process Personal Data</strong> (Clause 16 of the Framework
+                    Agreement), the Works Order Personal Data is:</td>
+
+                <td colspan="3">Business Contact data: names, addresses, phone numbers, email addresses</td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The Client authorises the Contractor to Process the Works Order Personal Data for the following time
+                    period:</td>
+
+                <td colspan="3">In accordance with the Contractor obligations under the Framework Agreement</td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>The minimum standard for technical and organisational measures for security of the Works Order
+                    Personal Data:</td>
+
+                <td colspan="3">In accordance with the Contractor obligations under the Framework Agreement</td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>Amendments to Schedule 3 of the Framework Agreement</td>
+
+                <td colspan="3">
+                    <div id="amendmentsToSchedule3">
+                        <p>Z1.1 Definitions</p>
+                        <ol>
+                            <li>The <strong>Indices Date</strong> means:</li>
+                            <li class="ql-indent-1">where the Works Order Construction Period has an odd number of days,
+                                the day which is the mid-point of the Works Order Construction Period; or</li>
+                            <li class="ql-indent-1">where the Works Order Construction Period has an even number of
+                                days, the first day of the second half of the Works Order Construction Period.</li>
+                            <li>The <strong>Adjustment Date</strong> means the date which is 3 calendar months after the
+                                Indices Date.</li>
+                            <li>The <strong>Contract Date Index</strong> is the CPIH index value on the Contract Date.
+                            </li>
+                            <li>The <strong>Adjustment Date Index</strong> is the CPIH index value on the Indices Date
+                                or, where the index value is not available for the Indices Date, the latest available
+                                prior CPIH index value.</li>
+                            <li>The <strong>Works Order Construction Period</strong> means the period between the
+                                starting date and the completion date for the whole of the works inclusive.</li>
+                            <li>The <strong>Initial Total of the Prices</strong> means the total of the Prices on the
+                                Contract Date excluding any subsequent adjustments made to the total of the Prices.</li>
+                            <li><strong>CPIH</strong> is the Consumer Prices Index including owner occupiers’ housing
+                                costs published by the Office for National Statistics (or any successor index).</li>
+                        </ol>
+                        <p>Z1.2 Price Adjustment</p>
+                        <p>A compensation event occurs on the Adjustment Date, pursuant to which a change to the Prices
+                            pursuant to Clause 63.1 shall be calculated as follows:</p>
+                        <p>Inflation Adjustment = ((Initial Total of the Prices / Contract Date Index) * Adjustment Date
+                            Index) - Initial Total of the Prices</p>
+                        <p>The Inflation Adjustment shall be assessed in the form of a change to the Activity Schedule
+                            and shall:</p>
+                        <ul>
+                            <li>(where Main Option A applies) be due on the assessment date following the Adjustment
+                                Date; or</li>
+                            <li>(where Main Option C applies) be added to the total of the Prices.</li>
+                        </ul>
+                        <p>Z1.3 Payment on Termination</p>
+                        <p>Where Main Option A applies and either Party terminates prior to Completion but after the
+                            Adjustment Date, the amount due to the Contractor pursuant to Clause Z1.2 shall be revised
+                            as follows:</p>
+                        <ul>
+                            <li>the Indices Date shall be revised to be the day which is the mid-point of the period
+                                between the starting date and the date on which a termination certificate is issued in
+                                accordance with Clause 90.1; and</li>
+                            <li>the Inflation Adjustment shall be adjusted to take account of the revised Indices Date
+                                and any additional sums due to the Contractor or sums due to the Client as a consequence
+                                of this revision of the Indices Date shall be payable pursuant to clause 93.1 as an
+                                additional bullet point constituting an additional part of A1.</li>
+                        </ul>
+                    </div>
+
+                    <p><strong>Z.2 Forecast Cap</strong></p>
+
+                    <p>In this clause, Z.2, Forecast Cap means [£<span>x</span>].([<span>x</span>] pounds only) and
+                        represents the <em>Client's</em> available budget for all of the <em>works.</em></p>
+
+                    <p>If the <em>Project Manager</em> instructs, the Forecast Cap as defined in this clause Z.2, shall
+                        be amended.</p>
+
+                    <p>The <em>Contractor</em> shall confirm to the <em>Project Manager</em> as soon as it reasonably
+                        considers that the Prices may exceed the Forecast Cap, providing a document setting out why the
+                        <em>Contractor</em> considers the Forecast Cap will be exceeded and setting out any potential
+                        mitigations. The <em>Project Manager</em> may then issue an instruction changing the Scope. The
+                        <em>Contractor</em> shall not exceed the Forecast Cap and the amount due to the Contractor
+                        pursuant to Clause 51 shall not exceed the Forecast Cap without prior instruction from the
+                        <em>Project Manager</em>.</p>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+
+
+
+
+        <h3 class="section-title">PART TWO – DATA PROVIDED BY <em>CONTRACTOR</em></h3>
+
+        <table>
+
+            <tr>
+
+                <td>The working areas are the Site and:</td>
+
+                <td colspan="2">
+                    <div class="sanitize">
+                        <p>test </p>
+                    </div>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>The key <em>persons</em> are:</td>
+
+                <td colspan="2">
+                    <div class="sanitize">
+                        <p>test</p>
+                    </div>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Estimated carbon values (with supporting data) are in:</td>
+
+                <td colspan="2">
+                    <div class="sanitize">
+                        <p>test</p>
+                    </div>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>The programme identified in the Contract Data is:</td>
+
+                <td colspan="2">
+                    <div class="sanitize">
+                        <p>test</p>
+                    </div>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>If <strong>Option A or C</strong> is used, the activity schedule is set out in:</td>
+
+                <td colspan="2">
+                    <div class="sanitize">
+                        <p>test</p>
+                    </div>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>If <strong>Option A or C</strong> is used, the tendered total of the Prices is:</td>
+
+                <td colspan="2">
+                    <div class="sanitize">&lt;p&gt;test&lt;/p&gt;</div>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>If <strong>Option X22</strong> is used, the Stage One key persons are:</td>
+
+                <td colspan="2">
+                    <div class="sanitize">
+                        <p>test</p>
+                    </div>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>If <strong>Option X22</strong> is used, the Pricing Information is stated in:</td>
+
+                <td colspan="2">
+                    <div class="sanitize">
+                        <p>test</p>
+                    </div>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>If <strong>Option X22a</strong> is used, the Pricing Information is stated in:</td>
+
+                <td colspan="2">
+                    <div class="sanitize">
+                        <p>test</p>
+                    </div>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>If <strong>Option Y(UK)1</strong> is used, the project bank is:</td>
+
+                <td colspan="2">
+                    <div class="sanitize">
+                        <p>test</p>
+                    </div>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>If <strong>Option Y(UK)1</strong> is used, the named suppliers are:</td>
+
+                <td colspan="2">
+                    <div class="sanitize">
+                        <p>ttes</p>
+                    </div>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>If <strong>Option Y(UK)1</strong> is used, the Data for the Schedule of Cost Components is:</td>
+
+                <td colspan="2">
+                    <div class="sanitize">
+                        <p>test</p>
+                    </div>
+                </td>
+
+            </tr>
+
+        </table>
+
+
+
+        <div class="section">
+
+            <h3 class="section-title">Signatures</h3>
+
+            <div class="signature-grid">
+
+                <div class="info-label"><strong>Signature of the authorised representative of the
+                        <em>Client</em></strong></div>
+
+                <div class="signature-box">
+
+                    <canvas id="client-signature-canvas" width="400" height="76"></canvas>
+
+                    <span class="signature-placeholder">Sign here</span>
+
+                </div>
+
+                <div class="info-label"><strong>Print Name</strong></div>
+
+                <input type="text" id="client-name" class="signature-input" placeholder="Enter name">
+
+                <div class="info-label"><strong>Date</strong></div>
+
+                <input type="text" id="client-date" class="signature-input" readonly>
+
+                <div class="info-label"><strong>Signature of Witness</strong></div>
+
+                <div class="signature-box">
+
+                    <canvas id="client-witness-canvas" width="400" height="76"></canvas>
+
+                    <span class="signature-placeholder">Witness sign here</span>
+
+                </div>
+
+                <div class="info-label"><strong>Print Name (Witness)</strong></div>
+
+                <input type="text" id="client-witness-name" class="signature-input" placeholder="Enter witness name">
+
+                <div class="info-label"></div>
+
+                <button class="digital-signature-btn" onclick="clearSignature('client')">Clear Client
+                    Signatures</button>
+
+            </div>
+
+            <br><br>
+
+            <div class="signature-grid">
+
+                <div class="info-label"><strong>Signature of the authorised representative of the
+                        <em>Contractor</em></strong></div>
+
+                <div class="signature-box">
+
+                    <canvas id="Contractor-signature-canvas" width="400" height="76"></canvas>
+
+                    <span class="signature-placeholder">Sign here</span>
+
+                </div>
+
+                <div class="info-label"><strong>Print Name</strong></div>
+
+                <input type="text" id="Contractor-name" class="signature-input" placeholder="Enter name">
+
+                <div class="info-label"><strong>Date</strong></div>
+
+                <input type="text" id="Contractor-date" class="signature-input" readonly>
+
+                <div class="info-label"><strong>Signature of Witness</strong></div>
+
+                <div class="signature-box">
+
+                    <canvas id="Contractor-witness-canvas" width="400" height="76"></canvas>
+
+                    <span class="signature-placeholder">Witness sign here</span>
+
+                </div>
+
+                <div class="info-label"><strong>Print Name (Witness)</strong></div>
+
+                <input type="text" id="Contractor-witness-name" class="signature-input"
+                    placeholder="Enter witness name">
+
+                <div class="info-label"></div>
+
+                <button class="digital-signature-btn" onclick="clearSignature('Contractor')">Clear Contractor
+                    Signatures</button>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <p></p>
+        </div>
+
+    </div>
+
+
+
+    <script>
+
+        let isDrawing = false;
+
+        let lastX = 0;
+
+        let lastY = 0;
+
+
+
+        function initializeCanvas(canvasId) {
+
+            const canvas = document.getElementById(canvasId);
+
+            const ctx = canvas.getContext('2d');
+
+            canvas.addEventListener('mousedown', startDrawing);
+
+            canvas.addEventListener('mousemove', draw);
+
+            canvas.addEventListener('mouseup', stopDrawing);
+
+            canvas.addEventListener('mouseout', stopDrawing);
+
+            canvas.addEventListener('touchstart', handleTouch);
+
+            canvas.addEventListener('touchmove', handleTouch);
+
+            canvas.addEventListener('touchend', stopDrawing);
+
+
+
+            function startDrawing(e) {
+
+                isDrawing = true;
+
+                const rect = canvas.getBoundingClientRect();
+
+                lastX = e.clientX - rect.left;
+
+                lastY = e.clientY - rect.top;
+
+                const role = canvasId.includes('client') ? 'client' : 'Contractor';
+
+                if (!canvasId.includes('witness')) updateSignatureDate(role);
+
+                const placeholder = canvas.nextElementSibling;
+
+                if (placeholder) placeholder.style.display = 'none';
+
+            }
+
+
+
+            function draw(e) {
+
+                if (!isDrawing) return;
+
+                const rect = canvas.getBoundingClientRect();
+
+                const currentX = e.clientX - rect.left;
+
+                const currentY = e.clientY - rect.top;
+
+                ctx.beginPath();
+
+                ctx.moveTo(lastX, lastY);
+
+                ctx.lineTo(currentX, currentY);
+
+                ctx.strokeStyle = '#000';
+
+                ctx.lineWidth = 2;
+
+                ctx.stroke();
+
+                lastX = currentX;
+
+                lastY = currentY;
+
+            }
+
+
+
+            function stopDrawing() { isDrawing = false; }
+
+
+
+            function handleTouch(e) {
+
+                e.preventDefault();
+
+                const touch = e.touches[0];
+
+                const mouseEvent = new MouseEvent(
+
+                    e.type === 'touchstart' ? 'mousedown' : e.type === 'touchmove' ? 'mousemove' : 'mouseup',
+
+                    { clientX: touch.clientX, clientY: touch.clientY }
+
+                );
+
+                canvas.dispatchEvent(mouseEvent);
+
+            }
+
+        }
+
+
+
+        function updateSignatureDate(role) {
+
+            const now = new Date();
+
+            const time = now.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' });
+
+            const date = now.toLocaleDateString('en-GB');
+
+            const dateInput = document.getElementById(`${role}-date`);
+
+            if (dateInput) dateInput.value = `${time} ${date}`;
+
+        }
+
+
+
+        function clearSignature(role) {
+
+            [`${role}-signature-canvas`, `${role}-witness-canvas`].forEach(id => {
+
+                const canvas = document.getElementById(id);
+
+                canvas.getContext('2d').clearRect(0, 0, canvas.width, canvas.height);
+
+                const placeholder = canvas.nextElementSibling;
+
+                if (placeholder) placeholder.style.display = 'block';
+
+            });
+
+            const dateInput = document.getElementById(`${role}-date`);
+
+            if (dateInput) dateInput.value = '';
+
+        }
+
+
+
+        window.onload = function () {
+
+            initializeCanvas('client-signature-canvas');
+
+            initializeCanvas('client-witness-canvas');
+
+            initializeCanvas('Contractor-signature-canvas');
+
+            initializeCanvas('Contractor-witness-canvas');
+
+        };
+
+    </script>
+
+    <script src="/static/cabapp/JS/diff_match_patch.js"></script>
+
+    <script>
+
+        (function () {
+
+            'use strict';
+
+
+
+            // ── Init ────────────────────────────────────────────────────────────────
+
+            const dmp = new diff_match_patch();
+
+            const DIFF_DELETE = -1;
+
+            const DIFF_INSERT = 1;
+
+            const DIFF_EQUAL = 0;
+
+            const CHANGE_CLASS = 'doc-change-highlight';
+
+
+
+            window.parent.postMessage({ type: 'FRAME_READY' }, window.location.origin);
+
+
+
+            // ── Receive messages from parent ────────────────────────────────────────
+
+            window.addEventListener('message', function (event) {
+
+                if (event.origin !== window.location.origin) return;
+
+                const msg = event.data;
+
+                if (!msg || !msg.type) return;
+
+                switch (msg.type) {
+
+                    case 'SHOW_CHANGES': renderChanges(msg.changes); break;
+
+                    case 'CLEAR_CHANGES': clearChanges(); break;
+
+                    case 'RENDER_COMMENT_MARKERS': renderCommentMarkers(msg.comments); break;
+
+                    case 'SCROLL_TO_COMMENT': scrollToText(msg.selectedText); break;
+
+                    case 'CLEAR_SELECTION_HIGHLIGHT': clearSelectionHighlight(); break;
+
+                }
+
+            });
+
+
+
+            // ── Text selection → send to parent ────────────────────────────────────
+
+            document.addEventListener('mouseup', function () {
+
+                const sel = window.getSelection();
+
+                if (!sel || sel.isCollapsed || sel.toString().trim().length < 3) return;
+
+
+
+                const selectedText = sel.toString().trim();
+
+                const range = sel.getRangeAt(0);
+
+                const container = range.startContainer;
+
+                const fullText = container.textContent || '';
+
+                const contextBefore = fullText.substring(Math.max(0, range.startOffset - 50), range.startOffset);
+
+                const contextAfter = fullText.substring(range.endOffset, range.endOffset + 50);
+
+
+
+                let sectionId = '';
+
+                let node = range.startContainer.parentElement;
+
+                while (node && node !== document.body) {
+
+                    if (node.id) { sectionId = node.id; break; }
+
+                    node = node.parentElement;
+
+                }
+
+
+
+                window.parent.postMessage({
+
+                    type: 'TEXT_SELECTED',
+
+                    selectedText,
+
+                    contextBefore,
+
+                    contextAfter,
+
+                    sectionId,
+
+                }, window.location.origin);
+
+            }, { passive: true });
+
+
+
+            // ── Styles ──────────────────────────────────────────────────────────────
+
+            const styleEl = document.createElement('style');
+
+            styleEl.textContent = `
+
+    .doc-change-ins {
+
+        background: #d4edda !important;
+
+        color: #155724 !important;
+
+        border-radius: 2px;
+
+        padding: 0 2px;
+
+    }
+
+    .doc-change-del {
+
+        background: #f8d7da !important;
+
+        color: #721c24 !important;
+
+        text-decoration: line-through !important;
+
+        border-radius: 2px;
+
+        padding: 0 2px;
+
+    }
+
+    .doc-change-bar {
+
+        position: fixed; top: 0; left: 0; right: 0;
+
+        background: #1e3a5f; color: white; font-size: 0.78rem;
+
+        padding: 0.3rem 1rem; z-index: 1000;
+
+        display: flex; align-items: center; gap: 0.5rem;
+
+    }
+
+    .doc-change-bar .change-count-badge {
+
+        background: #f59e0b; color: #1f2937; border-radius: 999px;
+
+        padding: 0.1rem 0.5rem; font-weight: 700; font-size: 0.72rem;
+
+    }
+
+    .doc-comment-marker {
+
+        display: inline-block; width: 10px; height: 10px;
+
+        background: #f59e0b; border-radius: 50%; cursor: pointer;
+
+        vertical-align: super; font-size: 0; margin-left: 2px;
+
+        border: 1.5px solid #d97706; transition: transform 0.15s;
+
+    }
+
+    .doc-comment-marker:hover { transform: scale(1.4); }
+
+    .doc-comment-marker.editor-note { background: #a78bfa; border-color: #7c3aed; }
+
+    .doc-selection-highlight { background: #fef3c7; border-bottom: 2px solid #f59e0b; }
+
+`;
+
+            document.head.appendChild(styleEl);
+
+
+
+            // ── Helpers ─────────────────────────────────────────────────────────────
+
+            function stripHtml(html) {
+
+                if (!html) return '';
+
+                const tmp = document.createElement('div');
+
+                tmp.innerHTML = html;
+
+                return tmp.textContent || tmp.innerText || '';
+
+            }
+
+
+
+            function makeWalker(root) {
+
+                return document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+
+                    acceptNode: function (node) {
+
+                        if (node.parentElement.closest('#changeBar, .' + CHANGE_CLASS + ', script, style'))
+
+                            return NodeFilter.FILTER_SKIP;
+
+                        return NodeFilter.FILTER_ACCEPT;
+
+                    }
+
+                });
+
+            }
+
+
+
+            // ── Find a text node containing searchText and call callback ─────────────
+
+            function wrapTextInDoc(searchText, root, callback) {
+
+                if (!searchText || searchText.trim().length < 3) return;
+
+                const search = searchText.substring(0, 120);
+
+                const walker = makeWalker(root);
+
+                let node;
+
+                while ((node = walker.nextNode())) {
+
+                    const idx = node.textContent.indexOf(search);
+
+                    if (idx === -1) continue;
+
+                    callback(node, idx, search.length);
+
+                    break;
+
+                }
+
+            }
+
+
+
+            // ── Insert a <del> marker anchored by context_before ────────────────────
+
+            // The deleted text is gone from the document, so we find the text that
+
+            // immediately preceded it (context_before) and inject the <del> right after it.
+
+            function insertDeletionByContext(contextBefore, deletedText, root, user) {
+
+                const searchFor = contextBefore.length > 40
+
+                    ? contextBefore.substring(contextBefore.length - 40)
+
+                    : contextBefore;
+
+
+
+                if (!searchFor.trim()) return;
+
+
+
+                const walker = makeWalker(root);
+
+                let node;
+
+                while ((node = walker.nextNode())) {
+
+                    const idx = node.textContent.indexOf(searchFor);
+
+                    if (idx === -1) continue;
+
+
+
+                    const insertOffset = idx + searchFor.length;
+
+
+
+                    // Build the <del> element
+
+                    const del = document.createElement('del');
+
+                    del.className = 'doc-change-del ' + CHANGE_CLASS;
+
+                    del.title = 'Removed by ' + user;
+
+                    del.textContent = deletedText;
+
+                    del.dataset.pureDeletion = 'true';
+
+
+
+                    // Split text node at insert point and inject
+
+                    const afterNode = node.splitText(insertOffset);
+
+                    node.parentNode.insertBefore(del, afterNode);
+
+                    break;
+
+                }
+
+            }
+
+
+
+            // ── Wrap a pure addition, handling both single-node and multi-node spans ──
+
+            function wrapAdditionInDoc(plainNew, root, user) {
+
+                if (!plainNew || plainNew.trim().length < 3) return;
+
+
+
+                // Use first 80 chars as a unique anchor to locate the start
+
+                const ANCHOR_LEN = 80;
+
+                const anchor = plainNew.substring(0, ANCHOR_LEN).trim();
+
+
+
+                // Walk to find the starting text node
+
+                const walker = makeWalker(root);
+
+                let node, startNode = null, startIdx = -1;
+
+                while ((node = walker.nextNode())) {
+
+                    const i = node.textContent.indexOf(anchor);
+
+                    if (i !== -1) { startNode = node; startIdx = i; break; }
+
+                }
+
+                if (!startNode) return;
+
+
+
+                const range = document.createRange();
+
+                range.setStart(startNode, startIdx);
+
+
+
+                const availableInStart = startNode.textContent.length - startIdx;
+
+
+
+                if (plainNew.length <= availableInStart) {
+
+                    // ── Happy path: entire addition fits in one text node ──────────
+
+                    range.setEnd(startNode, startIdx + plainNew.length);
+
+                } else {
+
+                    // ── Multi-node: walk forward to find the tail ──────────────────
+
+                    const TAIL_LEN = 50;
+
+                    const tail = plainNew.substring(Math.max(0, plainNew.length - TAIL_LEN)).trim();
+
+                    const walker2 = makeWalker(root);
+
+                    let n2, passedStart = false, endSet = false;
+
+                    while ((n2 = walker2.nextNode())) {
+
+                        if (!passedStart) { if (n2 === startNode) passedStart = true; continue; }
+
+                        const ti = n2.textContent.lastIndexOf(tail);
+
+                        if (ti !== -1) {
+
+                            range.setEnd(n2, ti + tail.length);
+
+                            endSet = true;
+
+                            break;
+
+                        }
+
+                    }
+
+                    if (!endSet) {
+
+                        // Fallback: cover at least the start node to end of its text
+
+                        range.setEnd(startNode, startNode.textContent.length);
+
+                    }
+
+                }
+
+
+
+                const mark = document.createElement('mark');
+
+                mark.className = 'doc-change-ins ' + CHANGE_CLASS;
+
+                mark.title = 'Added by ' + user;
+
+
+
+                // surroundContents works when range stays within one element boundary.
+
+                // For cross-element ranges, extract+append is the safe path.
+
+                try {
+
+                    range.surroundContents(mark);
+
+                } catch (e) {
+
+                    try {
+
+                        const frag = range.extractContents();
+
+                        mark.appendChild(frag);
+
+                        range.insertNode(mark);
+
+                    } catch (e2) {
+
+                        console.warn('wrapAdditionInDoc: could not wrap addition', e2);
+
+                    }
+
+                }
+
+            }
+
+
+
+            // ── Scope search to the relevant section ────────────────────────────────
+
+            function findSearchRoot(change) {
+
+                if (!change.section) return document.body;
+
+                const sectionLower = change.section.replace(/_/g, ' ').toLowerCase();
+
+                const candidates = document.querySelectorAll('td, th, h3');
+
+                for (let i = 0; i < candidates.length; i++) {
+
+                    if (candidates[i].textContent.trim().toLowerCase().includes(sectionLower)) {
+
+                        return candidates[i].closest('tr') ||
+
+                            candidates[i].closest('table') ||
+
+                            document.body;
+
+                    }
+
+                }
+
+                return document.body;
+
+            }
+
+
+
+            // ── Main change rendering ────────────────────────────────────────────────
+
+            function renderChanges(changes) {
+
+                clearChanges();
+
+                if (!changes || changes.length === 0) return;
+
+
+
+                const additions = changes.filter(c =>
+
+                    stripHtml(c.new_content || '').trim() && !stripHtml(c.original_content || '').trim()
+
+                );
+
+
+
+                const deletions = changes.filter(c =>
+
+                    !stripHtml(c.new_content || '').trim() && stripHtml(c.original_content || '').trim()
+
+                );
+
+
+
+                const replacements = changes.filter(c =>
+
+                    stripHtml(c.new_content || '').trim() && stripHtml(c.original_content || '').trim()
+
+                );
+
+
+
+                [...additions, ...replacements, ...deletions].forEach(function (change) {
+
+                    applyChangeDiff(change);
+
+                });
+
+
+
+                const bar = document.createElement('div');
+
+                bar.className = 'doc-change-bar';
+
+                bar.id = 'changeBar';
+
+                bar.innerHTML =
+
+                    '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">' +
+
+                    '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>' +
+
+                    ' Showing tracked changes ' +
+
+                    '<span class="change-count-badge">' + changes.length + ' change' +
+
+                    (changes.length !== 1 ? 's' : '') + '</span>' +
+
+                    '<span style="margin-left:auto;font-size:0.72rem;opacity:0.8;">' +
+
+                    'Additions in green · Deletions in red</span>';
+
+                document.body.insertBefore(bar, document.body.firstChild);
+
+                document.body.style.paddingTop = '30px';
+
+            }
+
+
+
+            function applyChangeDiff(change) {
+
+                const plainNew = stripHtml(change.new_content || '');
+
+                const plainOriginal = stripHtml(change.original_content || '');
+
+
+
+                if (!plainNew.trim() && !plainOriginal.trim()) return;
+
+
+
+                const searchRoot = findSearchRoot(change);
+
+
+
+                // ── Pure deletion ────────────────────────────────────────────────────
+
+                if (!plainNew.trim() && plainOriginal.trim()) {
+
+                    if (change.context_before && change.context_before.trim().length >= 3) {
+
+                        // Precise: anchor off surrounding context
+
+                        insertDeletionByContext(
+
+                            change.context_before.trim(),
+
+                            plainOriginal,
+
+                            searchRoot,
+
+                            change.user || ''
+
+                        );
+
+                    } else {
+
+                        // Fallback: first occurrence (imprecise for common words)
+
+                        wrapTextInDoc(plainOriginal, searchRoot, function (node, idx, len) {
+
+                            const range = document.createRange();
+
+                            range.setStart(node, idx);
+
+                            range.setEnd(node, idx + len);
+
+                            const del = document.createElement('del');
+
+                            del.className = 'doc-change-del ' + CHANGE_CLASS;
+
+                            del.title = 'Removed by ' + (change.user || '');
+
+                            try { range.surroundContents(del); } catch (e) { }
+
+                        });
+
+                    }
+
+                    return;
+
+                }
+
+
+
+                // ── Pure addition ────────────────────────────────────────────────────
+
+                if (!plainOriginal.trim() && plainNew.trim()) {
+
+                    wrapAdditionInDoc(plainNew, searchRoot, change.user || '');
+
+                    return;
+
+                }
+
+
+
+                // ── Replacement: word-level inline diff ──────────────────────────────
+
+                const diffs = dmp.diff_main(plainOriginal, plainNew);
+
+                dmp.diff_cleanupSemantic(diffs);
+
+
+
+                wrapTextInDoc(plainNew, searchRoot, function (node, idx) {
+
+                    const nodeText = node.textContent;
+
+                    const matchLen = Math.min(plainNew.length, nodeText.length - idx);
+
+                    const beforeText = nodeText.substring(0, idx);
+
+                    const afterText = nodeText.substring(idx + matchLen);
+
+                    const parent = node.parentNode;
+
+                    if (!parent) return;
+
+
+
+                    const frag = document.createDocumentFragment();
+
+                    if (beforeText) frag.appendChild(document.createTextNode(beforeText));
+
+
+
+                    diffs.forEach(function (diff) {
+
+                        const type = diff[0];
+
+                        const text = diff[1];
+
+                        if (!text) return;
+
+
+
+                        if (type === DIFF_DELETE) {
+
+                            const del = document.createElement('del');
+
+                            del.className = 'doc-change-del ' + CHANGE_CLASS;
+
+                            del.title = 'Removed by ' + (change.user || '');
+
+                            del.textContent = text;
+
+                            frag.appendChild(del);
+
+                        } else if (type === DIFF_INSERT) {
+
+                            const ins = document.createElement('mark');
+
+                            ins.className = 'doc-change-ins ' + CHANGE_CLASS;
+
+                            ins.title = 'Added by ' + (change.user || '');
+
+                            ins.textContent = text;
+
+                            frag.appendChild(ins);
+
+                        } else {
+
+                            frag.appendChild(document.createTextNode(text));
+
+                        }
+
+                    });
+
+
+
+                    if (afterText) frag.appendChild(document.createTextNode(afterText));
+
+                    parent.replaceChild(frag, node);
+
+                });
+
+            }
+
+
+
+            function clearChanges() {
+
+                document.querySelectorAll('.' + CHANGE_CLASS).forEach(function (el) {
+
+                    const p = el.parentNode;
+
+                    if (!p) return;
+
+
+
+                    if (el.dataset.pureDeletion === 'true') {
+
+                        p.removeChild(el);
+
+                    } else {
+
+                        while (el.firstChild) p.insertBefore(el.firstChild, el);
+
+                        p.removeChild(el);
+
+                    }
+
+                });
+
+                const bar = document.getElementById('changeBar');
+
+                if (bar) { bar.remove(); document.body.style.paddingTop = ''; }
+
+
+
+                document.body.normalize();
+
+            }
+
+
+
+            // ── Comment markers ──────────────────────────────────────────────────────
+
+            const _markedNodes = new WeakSet();
+
+
+
+            function renderCommentMarkers(comments) {
+
+                clearCommentMarkers();
+
+                comments.forEach(function (c) {
+
+                    if (c.selected_text && c.selected_text.trim().length >= 3) {
+
+                        insertCommentMarker(c);
+
+                    }
+
+                });
+
+            }
+
+
+
+            function insertCommentMarker(comment) {
+
+                const searchText = comment.selected_text.substring(0, 40).trim();
+
+                const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+
+                    acceptNode: function (node) {
+
+                        if (node.parentElement.closest('.doc-change-bar, script, style'))
+
+                            return NodeFilter.FILTER_SKIP;
+
+                        return NodeFilter.FILTER_ACCEPT;
+
+                    }
+
+                });
+
+                let node;
+
+                while ((node = walker.nextNode())) {
+
+                    if (_markedNodes.has(node)) continue;
+
+                    const idx = node.textContent.indexOf(searchText);
+
+                    if (idx === -1) continue;
+
+                    _markedNodes.add(node);
+
+
+
+                    const range = document.createRange();
+
+                    range.setStart(node, idx + searchText.length);
+
+                    range.setEnd(node, idx + searchText.length);
+
+
+
+                    const marker = document.createElement('span');
+
+                    marker.className = 'doc-comment-marker' +
+
+                        (comment.source === 'editor' ? ' editor-note' : '');
+
+                    marker.dataset.commentId = comment.id;
+
+                    marker.title = (comment.author || '') + ': ' +
+
+                        (comment.content || '').substring(0, 80);
+
+                    marker.addEventListener('click', function () {
+
+                        window.parent.postMessage({
+
+                            type: 'COMMENT_MARKER_CLICKED',
+
+                            commentId: parseInt(this.dataset.commentId),
+
+                        }, window.location.origin);
+
+                    });
+
+                    range.insertNode(marker);
+
+                    break;
+
+                }
+
+            }
+
+
+
+            function clearCommentMarkers() {
+
+                document.querySelectorAll('.doc-comment-marker').forEach(function (el) {
+
+                    el.remove();
+
+                });
+
+            }
+
+
+
+            // ── Scroll to text ───────────────────────────────────────────────────────
+
+            function scrollToText(text) {
+
+                if (!text) return;
+
+                const search = text.substring(0, 30);
+
+                const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
+
+                let node;
+
+                while ((node = walker.nextNode())) {
+
+                    if (!node.textContent.includes(search)) continue;
+
+                    node.parentElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+                    const span = document.createElement('span');
+
+                    span.className = 'doc-selection-highlight';
+
+                    span.textContent = node.textContent;
+
+                    try {
+
+                        node.parentElement.replaceChild(span, node);
+
+                        setTimeout(function () {
+
+                            if (span.parentNode) {
+
+                                span.parentNode.replaceChild(
+
+                                    document.createTextNode(span.textContent), span
+
+                                );
+
+                            }
+
+                        }, 2500);
+
+                    } catch (e) { }
+
+                    break;
+
+                }
+
+            }
+
+
+
+            function clearSelectionHighlight() {
+
+                document.querySelectorAll('.doc-selection-highlight').forEach(function (el) {
+
+                    if (el.parentNode) {
+
+                        el.parentNode.replaceChild(document.createTextNode(el.textContent), el);
+
+                    }
+
+                });
+
+            }
+
+
+
+        })();
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
